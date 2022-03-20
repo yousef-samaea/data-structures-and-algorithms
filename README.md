@@ -2,4 +2,5 @@
 
 |Challenge |   link    |
 |-----------|:-----------
-|ReversedArray|[ReversedArray]
+|ReversedArray|[ReversedArray](array-reverse/reversedArray.md)
+|array-insert-shift|[array-insert-shift](array-insert-shift/array-insert-shift.md)
