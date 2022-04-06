@@ -1,0 +1,16 @@
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\NODE\NODE\bin\Debug\net5.0\NODE.exe
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\NODE\NODE\bin\Debug\net5.0\NODE.deps.json
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\NODE\NODE\bin\Debug\net5.0\NODE.runtimeconfig.json
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\NODE\NODE\bin\Debug\net5.0\NODE.runtimeconfig.dev.json
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\NODE\NODE\bin\Debug\net5.0\NODE.dll
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\NODE\NODE\bin\Debug\net5.0\ref\NODE.dll
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\NODE\NODE\bin\Debug\net5.0\NODE.pdb
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\NODE\NODE\obj\Debug\net5.0\NODE.csproj.AssemblyReference.cache
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\NODE\NODE\obj\Debug\net5.0\NODE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\NODE\NODE\obj\Debug\net5.0\NODE.AssemblyInfoInputs.cache
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\NODE\NODE\obj\Debug\net5.0\NODE.AssemblyInfo.cs
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\NODE\NODE\obj\Debug\net5.0\NODE.csproj.CoreCompileInputs.cache
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\NODE\NODE\obj\Debug\net5.0\NODE.dll
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\NODE\NODE\obj\Debug\net5.0\ref\NODE.dll
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\NODE\NODE\obj\Debug\net5.0\NODE.pdb
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\NODE\NODE\obj\Debug\net5.0\NODE.genruntimeconfig.cache
