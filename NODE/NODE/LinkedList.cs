@@ -76,6 +76,89 @@ namespace NODE
         //    }
         //}
 
+        public void AppendInEnd(int data)
+        {
+            if (head == null)
+            {
+                Node aNode = new Node(data);
+                head = aNode;
+                head.next = null;
+            }
+            else
+            {
+                Node aNode = new Node(data);
+                Node temp;
+                temp = head;
+                while (temp.next != null)
+                {
+                    temp = temp.next;
+                }
+                temp.next = aNode;
+            }
+        }
+
+        public void AddAfter(int after, int value)
+        {
+            Node temp = new Node(value);
+            Node current = head;
+            if (current == null)
+            {
+                Console.WriteLine("the list is empty!,try to append");
+            }
+            else 
+            {
+                while (current.data != after) {
+
+                    current = current.next;
+                }
+                temp.next = current.next;
+                current.next = temp;
+
+            }
+
+        }
+
+        public void InsertBefore(int abefore, int value)
+        {
+            Node temp = new Node(value);
+            Node current = head;
+            if (current == null)
+            {
+                Console.WriteLine("the list is empty!,try to append");
+            }
+            else if(current.data == abefore)
+            {
+                temp.next = current;
+                current = temp;
+            }
+            else
+            {
+                while (current.next.data != abefore)
+                {
+
+                    current = current.next;
+                }
+                temp.next = current.next;
+                current.next = temp;
+
+            }
+
+            
+            
+            //while(current.next.data !=abefore)
+            //{
+
+            //        current = current.next;
+            //}
+            //    temp.next = current.next;
+            //    current.next = temp;
+            
+
+
+
+        }
+
+
     }
 }
 
