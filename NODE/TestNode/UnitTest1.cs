@@ -79,6 +79,21 @@ namespace TestNode
             Assert.Equal("[ 77 ] -> [ 11 ] -> [ 66 ] -> [ 55 ] -> NULL", linkedList.lToString());
         }
 
+        [Fact]
+        public void kthCorrectInsertTest()
+        {
+            LinkedList linkedList = new LinkedList();
+            linkedList.Insert(55);
+            linkedList.Insert(66);
+            linkedList.Insert(77);
+            //linkedList.kthFromEnd(1);
+            Assert.Equal(66, linkedList.kthFromEnd(1));
+        }
+
+
+
+
+
 
     }
 }

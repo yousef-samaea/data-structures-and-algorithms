@@ -15,7 +15,8 @@ namespace NODE
             newlist.AddAfter(22, 4);
             newlist.InsertBefore(22, 6);
             Console.WriteLine(newlist.lToString());
-            
+            int kth = newlist.kthFromEnd(5);
+            Console.WriteLine("the search resalt is " + kth);
         }
    
 

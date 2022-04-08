@@ -142,9 +142,6 @@ namespace NODE
                 current.next = temp;
 
             }
-
-            
-            
             //while(current.next.data !=abefore)
             //{
 
@@ -152,8 +149,34 @@ namespace NODE
             //}
             //    temp.next = current.next;
             //    current.next = temp;
-            
+        }
 
+
+        public int kthFromEnd(int k)
+        {
+            int cauntar = 0;
+            Node current = head;
+            while (current != null)
+            {
+                current = current.next;
+                cauntar++;
+            }
+            if (k < 0 || k >= cauntar)
+            {
+                throw new ArgumentException("you cant inter a negative value or bigaar than or eqal to " + cauntar);
+            }
+            else
+            {
+                Node temp = head;
+                for (int i = 0; i < k; i++)
+                {
+                    temp = temp.next;
+                }
+                int kth = temp.data;
+                //Console.WriteLine("the search resalt is " + kth);
+                return kth;
+               
+            }
 
 
         }
