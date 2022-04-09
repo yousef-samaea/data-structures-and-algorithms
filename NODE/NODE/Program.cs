@@ -17,6 +17,22 @@ namespace NODE
             Console.WriteLine(newlist.lToString());
             int kth = newlist.kthFromEnd(5);
             Console.WriteLine("the search resalt is " + kth);
+
+            //*************************************************
+
+            Console.WriteLine("resalt for zipLists");
+            LinkedList list1 = new LinkedList();
+            LinkedList list2 = new LinkedList();
+            list1.Insert(55);
+            list1.Insert(66);
+            list1.Insert(77);
+            list2.Insert(12);
+            list2.Insert(13);
+            list2.Insert(14);
+
+            LinkedList nlist = new LinkedList();
+            nlist.zipLists(list1, list2);
+            Console.WriteLine(nlist.lToString());
         }
    
 

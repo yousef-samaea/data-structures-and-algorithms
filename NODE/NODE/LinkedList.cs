@@ -83,6 +83,7 @@ namespace NODE
                 Node aNode = new Node(data);
                 head = aNode;
                 head.next = null;
+
             }
             else
             {
@@ -179,6 +180,33 @@ namespace NODE
             }
 
 
+        }
+
+        public LinkedList zipLists(LinkedList list1, LinkedList list2)
+        {
+            Node L1 = list1.head;
+            Node L2 = list2.head;
+            LinkedList zipList = new LinkedList();
+            int holder;
+            while (L1 != null || L2 != null)
+            {
+                if (L1 != null)
+                {
+                    holder = L1.data;
+                    AppendInEnd(holder);
+                    L1 = L1.next;
+                }
+
+                if (L2 != null)
+                {
+                    holder = L2.data;
+                    AppendInEnd(holder);
+                    L2 = L2.next;
+                }
+
+            }
+
+            return zipList;
         }
 
 

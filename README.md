@@ -8,3 +8,4 @@
 |chalinge 5|[NODE](./NODE/NODE.md)
 |chalinge 6|[linkedlist-chalinge06](./linkedlist-chalinge06/code-chaling06.md)
 |chalinge 7|[linked list kth](./linked-list-kth-chaling07/linked-list-kth.md)
+|chalinge 8|[zipLists](./zipLists/zipLists.md)
