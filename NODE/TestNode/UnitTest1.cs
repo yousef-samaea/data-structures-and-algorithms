@@ -19,22 +19,6 @@ namespace TestNode
             Assert.Equal("[ 77 ] -> [ 66 ] -> [ 55 ] -> NULL", linkedList.lToString());
         }
 
-
-        //[Fact]
-        //public void Test2()
-        //{
-        //    LinkedList x = new LinkedList();
-
-        //    Assert.Equal(null, x.head);
-
-        //    Assert.Null(x.head);
-
-        //    LinkedList linkedList = new LinkedList();
-
-        //    Assert.Equal("55", linkedList.Insert(55));
-
-        //}
-
         [Fact]
 
         public void Test3()
@@ -88,6 +72,44 @@ namespace TestNode
             linkedList.Insert(77);
             //linkedList.kthFromEnd(1);
             Assert.Equal(66, linkedList.kthFromEnd(1));
+        }
+
+
+        [Fact]
+        public void zipListsTest()
+        {
+            LinkedList list1 = new LinkedList();
+            LinkedList list2 = new LinkedList();
+            list1.Insert(55);
+            list1.Insert(66);
+            list1.Insert(77);
+            list2.Insert(12);
+            list2.Insert(13);
+            list2.Insert(14);
+
+            LinkedList nlist = new LinkedList();
+            nlist.zipLists(list1, list2);
+
+            Assert.Equal("[ 77 ] -> [ 14 ] -> [ 66 ] -> [ 13 ] -> [ 55 ] -> [ 12 ] -> NULL", nlist.lToString());
+        }
+
+        [Fact]
+        public void zipListsTest2()
+        {
+            LinkedList list1 = new LinkedList();
+            LinkedList list2 = new LinkedList();
+            list1.Insert(55);
+            list1.Insert(66);
+            list1.Insert(77);
+            list2.Insert(22);
+            list2.Insert(12);
+            list2.Insert(13);
+            list2.Insert(14);
+
+            LinkedList nlist = new LinkedList();
+            nlist.zipLists(list1, list2);
+
+            Assert.Equal("[ 77 ] -> [ 14 ] -> [ 66 ] -> [ 13 ] -> [ 55 ] -> [ 12 ] -> [ 22 ] -> NULL", nlist.lToString());
         }
 
 
