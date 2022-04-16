@@ -10,4 +10,4 @@
 |chalinge 7|[linked list kth](./linked-list-kth-chaling07/linked-list-kth.md)
 |chalinge 8|[zipLists](./zipLists/zipLists.md)
 |chalinge 10|[Stcsk And Queue](./NODE/StcskAndQueue.md)
-
+|chalinge 11|[Pseudo Queue](./Pseudo-Queue/Pseudo-Queue.md)
