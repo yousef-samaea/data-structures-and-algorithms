@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StcskAndQueue", "StcskAndQueue\StcskAndQueue.csproj", "{3E10CCB2-6EE2-4079-92C7-9CBABBCCE431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStacksandQueues", "TestStacksandQueues\TestStacksandQueues.csproj", "{F754734D-2A9A-4363-9453-177A2C98FDE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E10CCB2-6EE2-4079-92C7-9CBABBCCE431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E10CCB2-6EE2-4079-92C7-9CBABBCCE431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E10CCB2-6EE2-4079-92C7-9CBABBCCE431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E10CCB2-6EE2-4079-92C7-9CBABBCCE431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F754734D-2A9A-4363-9453-177A2C98FDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F754734D-2A9A-4363-9453-177A2C98FDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F754734D-2A9A-4363-9453-177A2C98FDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F754734D-2A9A-4363-9453-177A2C98FDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B01A25F6-5DA0-423F-B61D-DE49EE994BC0}
+	EndGlobalSection
+EndGlobal
