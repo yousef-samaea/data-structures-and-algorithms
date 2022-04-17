@@ -1,0 +1,16 @@
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\StcskAndQueue\StcskAndQueue\obj\Debug\net5.0\StcskAndQueue.csproj.AssemblyReference.cache
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\StcskAndQueue\StcskAndQueue\obj\Debug\net5.0\StcskAndQueue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\StcskAndQueue\StcskAndQueue\obj\Debug\net5.0\StcskAndQueue.AssemblyInfoInputs.cache
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\StcskAndQueue\StcskAndQueue\obj\Debug\net5.0\StcskAndQueue.AssemblyInfo.cs
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\StcskAndQueue\StcskAndQueue\obj\Debug\net5.0\StcskAndQueue.csproj.CoreCompileInputs.cache
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\StcskAndQueue\StcskAndQueue\bin\Debug\net5.0\StcskAndQueue.exe
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\StcskAndQueue\StcskAndQueue\bin\Debug\net5.0\StcskAndQueue.deps.json
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\StcskAndQueue\StcskAndQueue\bin\Debug\net5.0\StcskAndQueue.runtimeconfig.json
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\StcskAndQueue\StcskAndQueue\bin\Debug\net5.0\StcskAndQueue.runtimeconfig.dev.json
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\StcskAndQueue\StcskAndQueue\bin\Debug\net5.0\StcskAndQueue.dll
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\StcskAndQueue\StcskAndQueue\bin\Debug\net5.0\ref\StcskAndQueue.dll
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\StcskAndQueue\StcskAndQueue\bin\Debug\net5.0\StcskAndQueue.pdb
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\StcskAndQueue\StcskAndQueue\obj\Debug\net5.0\StcskAndQueue.dll
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\StcskAndQueue\StcskAndQueue\obj\Debug\net5.0\ref\StcskAndQueue.dll
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\StcskAndQueue\StcskAndQueue\obj\Debug\net5.0\StcskAndQueue.pdb
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\StcskAndQueue\StcskAndQueue\obj\Debug\net5.0\StcskAndQueue.genruntimeconfig.cache
