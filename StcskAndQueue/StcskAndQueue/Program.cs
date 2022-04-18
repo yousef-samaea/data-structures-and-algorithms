@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Diagnostics;
-using NODE.StacksandQueues;
-using NODE.stackqueuepseudo;
-namespace NODE
+using StcskAndQueue.StacksandQueues;
+using StcskAndQueue.stackqueuepseudo;
+using StcskAndQueue.AnimalShelters;
+
+namespace StcskAndQueue
 {
 
     namespace StcskAndQueue
@@ -37,17 +39,32 @@ namespace NODE
                 //Console.WriteLine();
 
 
-                PseudoQueue p = new PseudoQueue();
-                p.Enqueue(44);
-                p.Enqueue(55);
-                p.Enqueue(6);
-                p.Enqueue(77);
-                Console.WriteLine(p.PseudoQueuePrint());
-                Console.WriteLine("the Peeked value is :" + p.Peek());
-                p.Dequeue();
-                Console.WriteLine("the Peeked value after Dequeue is :" + p.Peek());
-                Console.WriteLine(p.PseudoQueuePrint());
-                Console.WriteLine();
+                //PseudoQueue p = new PseudoQueue();
+                //p.Enqueue(44);
+                //p.Enqueue(55);
+                //p.Enqueue(6);
+                //p.Enqueue(77);
+                //Console.WriteLine(p.PseudoQueuePrint());
+                //Console.WriteLine("the Peeked value is :" + p.Peek());
+                //p.Dequeue();
+                //Console.WriteLine("the Peeked value after Dequeue is :" + p.Peek());
+                //Console.WriteLine(p.PseudoQueuePrint());
+                //Console.WriteLine();
+
+                AnimalShelter animal = new AnimalShelter();
+                Dog hasky = new Dog();
+                Dog chewawa = new Dog();
+                Cat soso = new Cat();
+                Cat linlin = new Cat();
+                animal.Enqueue(hasky);
+                animal.Enqueue(chewawa);
+                animal.Enqueue(soso);
+                animal.Enqueue(linlin);
+                //string s = animal.Dequeue("dog");
+
+                //Console.WriteLine(animal.Dequeue("dog"));
+                
+
             }
         }
     }
