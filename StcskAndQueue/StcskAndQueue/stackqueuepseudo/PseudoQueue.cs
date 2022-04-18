@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NODE.StacksandQueues;
+using StcskAndQueue.StacksandQueues;
 
-namespace NODE.stackqueuepseudo
+namespace StcskAndQueue.stackqueuepseudo
 {
     public class PseudoQueue
     {
