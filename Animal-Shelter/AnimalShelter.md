@@ -18,7 +18,12 @@ Arguments: pref
 
 pref can be either "dog" or "cat", Return: either a dog or a cat, based on preference, If pref is not "dog" or "cat" then return null.
 
+## test 
+
+![image](test.png)
+
 ## code :
+
  public class AnimalShelter
     {
         public Queue<Cat> Cat = new Queue<Cat>();
@@ -54,3 +59,6 @@ pref can be either "dog" or "cat", Return: either a dog or a cat, based on prefe
             }
             return null;
         }
+
+
+        
