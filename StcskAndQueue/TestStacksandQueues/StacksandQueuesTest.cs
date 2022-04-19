@@ -1,7 +1,7 @@
 ﻿using System;
 using Xunit;
-using NODE;
-using NODE.StacksandQueues;
+using StcskAndQueue;
+using StcskAndQueue.StacksandQueues;
 
 namespace TestNode
 {
