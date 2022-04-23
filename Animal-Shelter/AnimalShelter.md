@@ -18,6 +18,10 @@ Arguments: pref
 
 pref can be either "dog" or "cat", Return: either a dog or a cat, based on preference, If pref is not "dog" or "cat" then return null.
 
+## Bord :
+
+![image](bord.png)
+
 ## test 
 
 ![image](test.png)

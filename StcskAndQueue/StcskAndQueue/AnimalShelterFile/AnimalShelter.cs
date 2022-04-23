@@ -9,8 +9,8 @@ namespace StcskAndQueue.AnimalShelters
 {
     public class AnimalShelter
     {
-        public Queue<Cat> Cat = new Queue<Cat>();
-        public Queue<Dog> Dog = new Queue<Dog>();
+        public Queue Cat = new Queue();
+        public Queue Dog = new Queue();
 
         public void Enqueue(Animal animal)
         {
@@ -33,15 +33,17 @@ namespace StcskAndQueue.AnimalShelters
         {
             if (pref == "cat")
             {
-                return Cat.Dequeue();
+                return (Animal)Cat.Dequeue();
 
             }
             else if (pref == "dog")
             {
-                return Dog.Dequeue();
+                return (Animal)Dog.Dequeue();
             }
             return null;
         }
+
+
 
         //internal void Enqueue(Dog dog1)
         //{
