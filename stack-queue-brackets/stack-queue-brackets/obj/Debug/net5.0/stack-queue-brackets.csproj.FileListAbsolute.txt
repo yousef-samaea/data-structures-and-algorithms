@@ -1,0 +1,16 @@
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\stack-queue-brackets\stack-queue-brackets\obj\Debug\net5.0\stack-queue-brackets.csproj.AssemblyReference.cache
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\stack-queue-brackets\stack-queue-brackets\obj\Debug\net5.0\stack-queue-brackets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\stack-queue-brackets\stack-queue-brackets\obj\Debug\net5.0\stack-queue-brackets.AssemblyInfoInputs.cache
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\stack-queue-brackets\stack-queue-brackets\obj\Debug\net5.0\stack-queue-brackets.AssemblyInfo.cs
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\stack-queue-brackets\stack-queue-brackets\obj\Debug\net5.0\stack-queue-brackets.csproj.CoreCompileInputs.cache
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\stack-queue-brackets\stack-queue-brackets\bin\Debug\net5.0\stack-queue-brackets.exe
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\stack-queue-brackets\stack-queue-brackets\bin\Debug\net5.0\stack-queue-brackets.deps.json
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\stack-queue-brackets\stack-queue-brackets\bin\Debug\net5.0\stack-queue-brackets.runtimeconfig.json
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\stack-queue-brackets\stack-queue-brackets\bin\Debug\net5.0\stack-queue-brackets.runtimeconfig.dev.json
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\stack-queue-brackets\stack-queue-brackets\bin\Debug\net5.0\stack-queue-brackets.dll
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\stack-queue-brackets\stack-queue-brackets\bin\Debug\net5.0\ref\stack-queue-brackets.dll
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\stack-queue-brackets\stack-queue-brackets\bin\Debug\net5.0\stack-queue-brackets.pdb
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\stack-queue-brackets\stack-queue-brackets\obj\Debug\net5.0\stack-queue-brackets.dll
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\stack-queue-brackets\stack-queue-brackets\obj\Debug\net5.0\ref\stack-queue-brackets.dll
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\stack-queue-brackets\stack-queue-brackets\obj\Debug\net5.0\stack-queue-brackets.pdb
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\stack-queue-brackets\stack-queue-brackets\obj\Debug\net5.0\stack-queue-brackets.genruntimeconfig.cache
