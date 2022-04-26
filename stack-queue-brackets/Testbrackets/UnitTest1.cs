@@ -15,32 +15,34 @@ namespace Testbrackets
         [Fact]
         public void TestTrue1()
         {
-            Assert.True(validatebBrackets("()()()(){}{}[][][]"));
+            Assert.Equal(true, validatebBrackets("()()()(){}{}[][][]"));
         }
 
         [Fact]
         public void TestTrue2()
         {
-            Assert.True(validatebBrackets("()[[Extra Characters]]"));
+            Assert.Equal(true, validatebBrackets("()[[Extra Characters]]"));
         }
 
         [Fact]
         public void TestFalse1()
         {
-            Assert.False(validatebBrackets("()("));
+            Assert.Equal(false, validatebBrackets("()("));
         }
 
         [Fact]
         public void TestFalse2()
         {
-            Assert.False(validatebBrackets("[({text}]"));
+            Assert.Equal(false, validatebBrackets("[({text}]"));
         }
 
         [Fact]
         public void TestNull()
         {
-            Assert.True(validatebBrackets(null));
+            Assert.Equal(true, validatebBrackets(null));
         }
+
+       
 
 
     }
