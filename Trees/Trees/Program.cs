@@ -35,6 +35,9 @@ namespace Trees
             //{
             //    Console.Write($"{item},");
             //}
+            Console.Write("The Maximum value in tree Is : ");
+            Console.WriteLine(mytree.MaxTree(mytree.Root));
+            Console.WriteLine();
 
         }
     }
