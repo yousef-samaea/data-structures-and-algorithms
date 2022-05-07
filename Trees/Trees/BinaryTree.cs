@@ -159,6 +159,28 @@ namespace Trees
             return false;
         }
 
+        public int MaxTree(BTNode node)
+        {
+            if (node == null)
+            {
+                return int.MinValue;
+            }
+
+            int max = node.Value;
+            int left = MaxTree(node.Left);
+            int right = MaxTree(node.Righte);
+
+            if (left > max)
+            {
+                max = left;
+            }
+            if (right > max)
+            {
+                max = right;
+            }
+
+            return max;
+        }
 
     }
 }

@@ -14,3 +14,4 @@
 |chalinge 12|[Animal Shelter](./Animal-Shelter/AnimalShelter.md)
 |chalinge 13|[stack-queue-brackets](./stack-queue-brackets/stack-queue-brackets.md)
 |chalinge 15|[tree](./Trees/trees.md)
+|chalinge 15|[MaxTree](./Trees/treemax.md)
