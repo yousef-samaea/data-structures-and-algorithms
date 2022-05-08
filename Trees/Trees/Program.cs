@@ -39,6 +39,16 @@ namespace Trees
             Console.WriteLine(mytree.MaxTree(mytree.Root));
             Console.WriteLine();
 
+            BreadthFirsts mytreee = new BreadthFirsts();
+            mytreee.Addob(6);
+            mytreee.Addob(9);
+            mytreee.Addob(5);
+            mytreee.Addob(3);
+            mytreee.Addob(8);
+
+            Console.Write("tree breadth first method : ");
+            mytreee.BreadthFirst();
+            Console.WriteLine();
         }
     }
 }

@@ -9,8 +9,9 @@ namespace Trees
     public class BinaryTree
     {
         public BTNode Root;
+        
         public List<int> MyTree = new List<int>();
-
+        
 
         public void Add(int value)
         {
@@ -48,6 +49,8 @@ namespace Trees
                 }
             }
         }
+
+        
 
         public BinaryTree()
         {
@@ -181,6 +184,36 @@ namespace Trees
 
             return max;
         }
+
+        //public List<object> BreadthFirst()
+        //{
+        //    BreadthFirst(Root);
+        //    return MyTreee;
+        //}
+
+        //private List<object> BreadthFirst(BTNode root)
+        //{
+        //    Queue<BTNode> queue = new Queue<BTNode>();
+        //    queue.Enqueue(root);
+
+        //    while (queue.Count > 0)
+        //    {
+        //        BTNode node = queue.Dequeue();
+
+        //        if (node.Left != null)
+        //        {
+        //            queue.Enqueue(node.Left);
+        //        }
+        //        if (node.Righte != null)
+        //        {
+        //            queue.Enqueue(node.Righte);
+        //        }
+        //        MyTree.Add(node.Value);
+        //        Console.Write($"{ node.Value},");
+        //    }
+        //    return MyTreee;
+
+        //}
 
     }
 }
