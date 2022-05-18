@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Trees
 {
-    public class BreadthFirsts
+    public class BreadthFirsts : FizzBuzzTree
     {
         public ObNode Root;
         public List<object> MyTreee = new List<object>();
