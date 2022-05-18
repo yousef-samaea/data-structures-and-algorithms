@@ -16,3 +16,4 @@
 |chalinge 15|[tree](./Trees/trees.md)
 |chalinge 16|[MaxTree](./Trees/treemax.md)
 |chalinge 17|[Breadth First](./Breadth/Breadth.md)
+|chalinge 18|[Fizz Buzz Tree](./fizzbuzztree/fizzbuzztree.md)

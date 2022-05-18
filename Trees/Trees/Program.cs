@@ -49,6 +49,19 @@ namespace Trees
             Console.Write("tree breadth first method : ");
             mytreee.BreadthFirst();
             Console.WriteLine();
+
+            Console.Write("FizzBuzzTree : ");
+            var FizzBuzz = mytreee.FBTree();
+            foreach (var item in FizzBuzz)
+            {
+                Console.Write($"{item},");
+            }
+            Console.ReadLine();
+
+
+
+
+
         }
     }
 }
