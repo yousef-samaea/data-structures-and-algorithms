@@ -15,8 +15,8 @@ write a method that called Quick Sort based in pseudocode to sort an integer arr
 ![image](/test.png)  
 
 ### BIG O
-time complexity = O(n log n)
-space complexity = O(n log n)
+time complexity = O(n log n).
+space complexity = O(n log n).
 
 ### Edge case
 1.empty array
