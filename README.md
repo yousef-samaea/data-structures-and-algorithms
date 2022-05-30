@@ -18,3 +18,4 @@
 |chalinge 17|[Breadth First](./Breadth/Breadth.md)
 |chalinge 18|[Fizz Buzz Tree](./fizzbuzztree/fizzbuzztree.md)
 |chalinge 26|[Insertion Sort](./Insertion-Sort/InsertionSort.md)
+|chalinge 28|[Quick Sort](./Quick-Sort/Quick-Sort.md)
