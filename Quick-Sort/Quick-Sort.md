@@ -4,15 +4,15 @@ write a method that called Quick Sort based in pseudocode to sort an integer arr
 
 ### Bord:
 
-![image](/bord.png)
+![image](./bord.png)
 
 ### Run:
 
-![image](/run.png)
+![image](./run.png)
 
 ### Tests:
 
-![image](/test.png)  
+![image](./test.png)  
 
 ### BIG O
 time complexity = O(n log n).

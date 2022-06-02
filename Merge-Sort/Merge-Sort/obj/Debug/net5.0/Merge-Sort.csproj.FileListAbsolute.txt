@@ -1,0 +1,16 @@
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\Merge-Sort\Merge-Sort\bin\Debug\net5.0\Merge-Sort.exe
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\Merge-Sort\Merge-Sort\bin\Debug\net5.0\Merge-Sort.deps.json
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\Merge-Sort\Merge-Sort\bin\Debug\net5.0\Merge-Sort.runtimeconfig.json
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\Merge-Sort\Merge-Sort\bin\Debug\net5.0\Merge-Sort.runtimeconfig.dev.json
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\Merge-Sort\Merge-Sort\bin\Debug\net5.0\Merge-Sort.dll
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\Merge-Sort\Merge-Sort\bin\Debug\net5.0\ref\Merge-Sort.dll
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\Merge-Sort\Merge-Sort\bin\Debug\net5.0\Merge-Sort.pdb
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\Merge-Sort\Merge-Sort\obj\Debug\net5.0\Merge-Sort.csproj.AssemblyReference.cache
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\Merge-Sort\Merge-Sort\obj\Debug\net5.0\Merge-Sort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\Merge-Sort\Merge-Sort\obj\Debug\net5.0\Merge-Sort.AssemblyInfoInputs.cache
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\Merge-Sort\Merge-Sort\obj\Debug\net5.0\Merge-Sort.AssemblyInfo.cs
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\Merge-Sort\Merge-Sort\obj\Debug\net5.0\Merge-Sort.csproj.CoreCompileInputs.cache
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\Merge-Sort\Merge-Sort\obj\Debug\net5.0\Merge-Sort.dll
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\Merge-Sort\Merge-Sort\obj\Debug\net5.0\ref\Merge-Sort.dll
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\Merge-Sort\Merge-Sort\obj\Debug\net5.0\Merge-Sort.pdb
+C:\Users\youse\Desktop\programs\data-structures-and-algorithms\Merge-Sort\Merge-Sort\obj\Debug\net5.0\Merge-Sort.genruntimeconfig.cache
