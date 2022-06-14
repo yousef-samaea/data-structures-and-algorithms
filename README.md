@@ -19,3 +19,4 @@
 |chalinge 18|[Fizz Buzz Tree](./fizzbuzztree/fizzbuzztree.md)
 |chalinge 26|[Insertion Sort](./Insertion-Sort/InsertionSort.md)
 |chalinge 28|[Quick Sort](./Quick-Sort/Quick-Sort.md)
+|chalinge 30|[Hash Table](./Hash-Table/Hash-Table.md)
