@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hash-Table", "Hash-Table\Hash-Table.csproj", "{2D0F8A0A-E141-48FF-BCAC-B19D67C4F11F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hash-Table", "Hash-Table\Hash-Table.csproj", "{2D0F8A0A-E141-48FF-BCAC-B19D67C4F11F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{C552FD65-B977-46A7-8BEE-36B87B3BE397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject1\TestProject1.csproj", "{C552FD65-B977-46A7-8BEE-36B87B3BE397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRepeatedWord", "TestRepeatedWord\TestRepeatedWord.csproj", "{7E8E60AB-1A1C-407D-B0E5-CB2D74FE1F4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C552FD65-B977-46A7-8BEE-36B87B3BE397}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C552FD65-B977-46A7-8BEE-36B87B3BE397}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C552FD65-B977-46A7-8BEE-36B87B3BE397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E8E60AB-1A1C-407D-B0E5-CB2D74FE1F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8E60AB-1A1C-407D-B0E5-CB2D74FE1F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8E60AB-1A1C-407D-B0E5-CB2D74FE1F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8E60AB-1A1C-407D-B0E5-CB2D74FE1F4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
