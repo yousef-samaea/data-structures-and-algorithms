@@ -21,3 +21,4 @@
 |chalinge 28|[Quick Sort](./Quick-Sort/Quick-Sort.md)
 |chalinge 30|[Hash Table](./Hash-Table/Hash-Table.md)
 |chalinge 31|[Repeated word](./Hash-Table/repeatedword.md)
+|chalinge 33|[left join](./Hash-Table/left-join.md)
