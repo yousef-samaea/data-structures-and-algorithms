@@ -1,21 +1,21 @@
 ﻿using System;
 using System.Diagnostics;
-using NODE.StacksandQueues;
-using NODE.stackqueuepseudo;
+//using NODE.StacksandQueues;
+//using NODE.stackqueuepseudo;
 namespace NODE
 {
     public class Program
     {
         static void Main(string[] args)
         {
-            //LinkedList newlist = new LinkedList();
-            //newlist.Insert(77);
-            //newlist.Insert(22);
-            //newlist.Insert(13);
+            LinkedList newlist = new LinkedList();
+            newlist.Insert(77);
+            newlist.Insert(22);
+            newlist.Insert(13);
             //newlist.AppendInEnd(122);
             //newlist.AddAfter(22, 4);
             //newlist.InsertBefore(22, 6);
-            //Console.WriteLine(newlist.lToString());
+            Console.WriteLine(newlist.lToString());
             //int kth = newlist.kthFromEnd(5);
             //Console.WriteLine("the search resalt is " + kth);
 
@@ -61,17 +61,17 @@ namespace NODE
             //Console.WriteLine();
 
 
-            PseudoQueue p = new PseudoQueue();
-            p.Enqueue(44);
-            p.Enqueue(55);
-            p.Enqueue(6);
-            p.Enqueue(77);
-            Console.WriteLine(p.PseudoQueuePrint());
-            Console.WriteLine("the Peeked value is :" + p.Peek());
-            p.Dequeue();
-            Console.WriteLine("the Peeked value after Dequeue is :" + p.Peek());
-            Console.WriteLine(p.PseudoQueuePrint());
-            Console.WriteLine();
+            //PseudoQueue p = new PseudoQueue();
+            //p.Enqueue(44);
+            //p.Enqueue(55);
+            //p.Enqueue(6);
+            //p.Enqueue(77);
+            //Console.WriteLine(p.PseudoQueuePrint());
+            //Console.WriteLine("the Peeked value is :" + p.Peek());
+            //p.Dequeue();
+            //Console.WriteLine("the Peeked value after Dequeue is :" + p.Peek());
+            //Console.WriteLine(p.PseudoQueuePrint());
+            //Console.WriteLine();
 
 
 

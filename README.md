@@ -21,5 +21,5 @@
 |chalinge 28|[Quick Sort](./Quick-Sort/Quick-Sort.md)
 |chalinge 30|[Hash Table](./Hash-Table/Hash-Table.md)
 |chalinge 31|[Repeated word](./Hash-Table/repeatedword.md)
-|chalinge 32|[Tree Intersection](./Hash-Table/TreeIntersection/TreeIntersection.md)
+|chalinge 32|[Tree Intersection](./Hash-Table/TreeIntersection/tree_intersection.md)
 |chalinge 33|[left join](./Hash-Table/left-join.md)
