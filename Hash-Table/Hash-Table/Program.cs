@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using static Hash_Table.Repeated;
+using System.Threading.Tasks;
+using System.Collections;
 
 namespace Hash_Table
 {
@@ -8,22 +10,22 @@ namespace Hash_Table
     {
         public static void Main(string[] args)
         {
-            //HashTable Hash = new HashTable();
+            HashTable Hash = new HashTable();
 
-            //Hash.Set("1", "yousef");
-            //Hash.Set("2", "ali");
-            //Hash.Set("3", "samara");
-
-            //string one = "Once upon a time, there was a brave princess who...";
-            //string two = "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only...";
-            //string three = "It was a queer, sultry summer, the summer they electrocuted the Rosenbergs, and I didn’t know what I was doing in New York...";
-            //Console.Write("Example 1 resalt is : ");
-            //Console.WriteLine(RepeatedWord(one));
-            //Console.Write("Example 2 resalt is : ");
-            //Console.WriteLine(RepeatedWord(two));
-            //Console.Write("Example 3 resalt is : ");
-            //Console.WriteLine(RepeatedWord(three));
-
+            Hash.Set("1", "yousef");
+            Hash.Set("2", "ali");
+            Hash.Set("3", "samara");
+            Console.WriteLine("Repeated Word");
+            string one = "Once upon a time, there was a brave princess who...";
+            string two = "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only...";
+            string three = "It was a queer, sultry summer, the summer they electrocuted the Rosenbergs, and I didn’t know what I was doing in New York...";
+            Console.Write("Example 1 resalt is : ");
+            Console.WriteLine(RepeatedWord(one));
+            Console.Write("Example 2 resalt is : ");
+            Console.WriteLine(RepeatedWord(two));
+            Console.Write("Example 3 resalt is : ");
+            Console.WriteLine(RepeatedWord(three));
+            Console.WriteLine("****************************************************");
             HashTable left = new HashTable();
             left.Set("diligent", "employed");
             left.Set("fond", "enamored");
@@ -38,6 +40,7 @@ namespace Hash_Table
             right.Set("flow", "jam");
             right.Set("wrath", "delight");
 
+            Console.WriteLine("LeftJoin");
             Program LeftJoin = new Program();
             List<string> keys = new List<string>();
             keys = Program.LeftJoin(left, right);
@@ -45,6 +48,61 @@ namespace Hash_Table
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine("****************************************************")
+;           Console.WriteLine("Tree Intersection");
+            Tree mytree = new Tree();
+            mytree.Add(6);
+            mytree.Add(9);
+            mytree.Add(5);
+            mytree.Add(3);
+            mytree.Add(77);
+            Tree mytree2 = new Tree();
+            mytree2.Add(4);
+            mytree2.Add(2);
+            mytree2.Add(6);
+            mytree2.Add(3);
+            mytree2.Add(44);
+
+
+            List<int> common = new List<int>();
+            common = TreeIntersection(mytree, mytree2);
+            Console.WriteLine("intersections are: ");
+            foreach (int value in common)
+            {
+                Console.Write(value + " ");
+            }
+
+        }
+
+        
+        public static List<int> TreeIntersection(Tree Treeone, Tree Treetwo)
+        {
+            //if (Treeone.Root == null || Treetwo.Root == null)
+            //{
+            //    throw new Exception("Tree is empty");
+            //}
+
+            List<int> one = new List<int>();
+            List<int> two = new List<int>();
+            HashTable Hash = new HashTable();
+            List<int> common = new List<int>();
+
+            one = Treeone.Order(Treeone.Root);
+            two = Treetwo.Order(Treetwo.Root);
+
+            foreach (int value in one)
+            {
+                BTNode node = new BTNode(value);
+                Hash.Set(node.Value.ToString(), node.Value.ToString());
+            }
+            foreach (int value in two)
+            {
+                if (Hash.Contains(value.ToString()))
+                {
+                    common.Add(value);
+                }
+            }
+            return common;
         }
 
         public static string RepeatedWord(string words)
@@ -101,8 +159,9 @@ namespace Hash_Table
                 }
                 return Table;
             }
-
-
         }
+
+
     }
+    
 

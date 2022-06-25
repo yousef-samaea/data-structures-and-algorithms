@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestRepeatedWord", "TestRepeatedWord\TestRepeatedWord.csproj", "{7E8E60AB-1A1C-407D-B0E5-CB2D74FE1F4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testleft-join", "Testleft-join\Testleft-join.csproj", "{61878A42-7520-43A0-8309-9B12C9BF6F1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testleft-join", "Testleft-join\Testleft-join.csproj", "{61878A42-7520-43A0-8309-9B12C9BF6F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTreeIntersection", "TestTreeIntersection\TestTreeIntersection.csproj", "{F09A1CC5-5720-41C0-90DA-8F5B5B3A6DC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{61878A42-7520-43A0-8309-9B12C9BF6F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61878A42-7520-43A0-8309-9B12C9BF6F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61878A42-7520-43A0-8309-9B12C9BF6F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09A1CC5-5720-41C0-90DA-8F5B5B3A6DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09A1CC5-5720-41C0-90DA-8F5B5B3A6DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09A1CC5-5720-41C0-90DA-8F5B5B3A6DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09A1CC5-5720-41C0-90DA-8F5B5B3A6DC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
