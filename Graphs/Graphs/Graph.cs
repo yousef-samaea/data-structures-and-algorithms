@@ -62,6 +62,39 @@ namespace Graphs
         {
             return Vertices.Count;
         }
-        
+
+
+        public List<Vertex> BreadthFirst(Vertex vertex)
+        {
+            Queue<Vertex> queue = new Queue<Vertex>();
+            Vertex root = Vertices.Find(n => n.Value == vertex.Value);
+            List<Vertex> vertexPath = new List<Vertex>();
+            
+            root.Visited = true;
+            queue.Enqueue(root);
+            //root.Add(vertex);
+
+            if (queue.Count == 0)
+            {
+                throw new Exception("its empty ther is no nods!!!");
+            }
+
+            while (queue.Count != 0)
+            {
+                Vertex front = queue.Dequeue();
+                vertexPath.Add(front);
+                foreach (Edge edge in front.Edge)
+                {
+                    if (!edge.Neighbor.Visited)
+                    {
+                        edge.Neighbor.Visited = true;
+                        queue.Enqueue(edge.Neighbor);
+                    }
+                }
+            }
+            return vertexPath;
+        }
+
+       
     }
 }
