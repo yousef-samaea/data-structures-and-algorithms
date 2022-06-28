@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graphs", "Graphs\Graphs.csproj", "{A75BE539-3E93-4C8F-9EC1-25747F7E7C5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGraphs", "TestGraphs\TestGraphs.csproj", "{ACB06D49-2895-4992-AF30-9E717A6FC16E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestGraphs", "TestGraphs\TestGraphs.csproj", "{ACB06D49-2895-4992-AF30-9E717A6FC16E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBreadth-First", "TestBreadth-First\TestBreadth-First.csproj", "{34FF3C63-9930-4CEA-81AF-16D647060889}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{ACB06D49-2895-4992-AF30-9E717A6FC16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACB06D49-2895-4992-AF30-9E717A6FC16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACB06D49-2895-4992-AF30-9E717A6FC16E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FF3C63-9930-4CEA-81AF-16D647060889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FF3C63-9930-4CEA-81AF-16D647060889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FF3C63-9930-4CEA-81AF-16D647060889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FF3C63-9930-4CEA-81AF-16D647060889}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
