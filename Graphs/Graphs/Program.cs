@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using static Graphs.BusinessTrips;
 
 namespace Graphs
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Graph graph = new Graph();
             graph.AddNode("x");
@@ -84,8 +85,35 @@ namespace Graphs
             {
                 Console.Write($" {xx.Value} ");
             }
+            Console.WriteLine();
+            Console.WriteLine("****************************************************");
+            
+
+            Console.WriteLine("BusinessTrip :");
+            Graph travil = new Graph();
+            travil.AddNode("amman");
+            travil.AddNode("irbid");
+            travil.AddNode("dubai");
+            travil.AddNode("ah qahira");
+            travil.AddNode("qatar");
+            Vertex A = new Vertex("amman");
+            Vertex B = new Vertex("irbid");
+            Vertex C = new Vertex("dubai");
+            Vertex D = new Vertex("ah qahira");
+            Vertex AE = new Vertex("qatar");
+            travil.AddEdge(A, B, 40);
+            travil.AddEdge(A, C, 13);
+            travil.AddEdge(B, C, 55);
+            travil.AddEdge(C, D, 4);
+            travil.AddEdge(C, AE, 122);
+            travil.AddEdge(D, AE, 62);
+            string start = "irbid";
+            string end = "qatar";
+            BusinessTrip(travil, start, end);
+
 
 
         }
+
     }
 }
