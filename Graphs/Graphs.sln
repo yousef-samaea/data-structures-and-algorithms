@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graphs", "Graphs\Graphs.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestGraphs", "TestGraphs\TestGraphs.csproj", "{ACB06D49-2895-4992-AF30-9E717A6FC16E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBreadth-First", "TestBreadth-First\TestBreadth-First.csproj", "{34FF3C63-9930-4CEA-81AF-16D647060889}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBreadth-First", "TestBreadth-First\TestBreadth-First.csproj", "{34FF3C63-9930-4CEA-81AF-16D647060889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBusines", "TestBusines\TestBusines.csproj", "{DD92668C-7E13-412E-9DB0-1D9CAF3C86E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{34FF3C63-9930-4CEA-81AF-16D647060889}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34FF3C63-9930-4CEA-81AF-16D647060889}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34FF3C63-9930-4CEA-81AF-16D647060889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD92668C-7E13-412E-9DB0-1D9CAF3C86E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD92668C-7E13-412E-9DB0-1D9CAF3C86E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD92668C-7E13-412E-9DB0-1D9CAF3C86E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD92668C-7E13-412E-9DB0-1D9CAF3C86E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

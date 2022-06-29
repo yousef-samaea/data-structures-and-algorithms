@@ -25,3 +25,4 @@
 |chalinge 33|[left join](./Hash-Table/left-join.md)
 |chalinge 35|[Graph](./Graphs/Graphs.md)
 |chalinge 36|[left join](./Graphs/breadth-first/breadth-first.md)
+|chalinge 37|[business-trip](./Graphs/business/business.md)
