@@ -107,13 +107,17 @@ namespace Graphs
             travil.AddEdge(C, D, 4);
             travil.AddEdge(C, AE, 122);
             travil.AddEdge(D, AE, 62);
-            string start = "irbid";
-            string end = "qatar";
-            BusinessTrip(travil, start, end);
-
-
+            //string start = "irbid";
+            //string end = "qatar";
+            string[] fromTo = { "amman", "irbid", "dubai" };
+            var cc= BusinessTrip(travil, fromTo);
+            Console.Write("the cost of the trip is ");
+            Console.WriteLine(cc);
 
         }
+
+        
+
 
     }
 }

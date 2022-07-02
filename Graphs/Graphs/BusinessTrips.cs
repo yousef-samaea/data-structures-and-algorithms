@@ -8,74 +8,27 @@ namespace Graphs
 {
     public class BusinessTrips : Graph
     {
-        public static int? BusinessTrip(Graph graph, string start, string end)
+        public static int? BusinessTrip(Graph graph, string[] arr)
         {
-            int x = 1;
-            bool pathFound = false;
-            List<Vertex> route = new List<Vertex>();
-            int cost = 0;
-            Vertex root = graph.Vertices.Find(v => v.Value.ToString() == start);
-
-            if (!graph.Vertices.Exists(c => c.Value.ToString() == start) || !graph.Vertices.Exists(c => c.Value.ToString() == end))
+            int Cost = 0;
+            if (arr.Length <= 1)
             {
-                route.Add(new Vertex("None"));
-                return x;
+                return null;
             }
-            else if (root.Edge.Exists(n => n.Neighbor.Value.ToString() == end))
+            for (int i = 0; i < arr.Length - 1; i++)
             {
-                route.Add(root.Edge.Find(n => n.Neighbor.Value.ToString() == end).Neighbor);
-                route.Add(root.Edge.Find(n => n.Neighbor.Value.ToString() == start).Neighbor);
-                cost += root.Edge.Find(n => n.Neighbor.Value.ToString() == end).Weight;
-                return x;
-            }
-            else
-            {
-                Tuple<List<Vertex>, int, bool, Vertex> bestRoute = FindRoutes(graph, root, start, end, route, cost, pathFound);
+                List<Edge> Edges = graph.GetNeighbors(new Vertex(arr[i]));
 
-                Console.WriteLine($"travels from using the root {start} to {end}:");
-                for (int i = bestRoute.Item1.Count - 1; i >= 0; i--)
+                if (!Edges.Exists(n => n.Neighbor.Value.ToString() == arr[i + 1]))
                 {
-                    Console.Write($"{bestRoute.Item1[i].Value.ToString()} ");
+                    return null;
                 }
-                Console.WriteLine();
-                Console.WriteLine($"Cost: ${bestRoute.Item2}");
-                return x;
-            }
-        }
-        public static Tuple<List<Vertex>, int, bool, Vertex> FindRoutes(Graph graph, Vertex root, string start, string end, List<Vertex> route, int cost, bool pathFound)
-        {
-            root.Visited = true;
-            if (root.Value.ToString() == end)
-            {
-                pathFound = true;
-            }
-
-            Vertex lastNode = null;
-
-            foreach (Edge edge in root.Edge)
-            {
-
-                if (!edge.Neighbor.Visited)
+                else
                 {
-                    Tuple<List<Vertex>, int, bool, Vertex> path = FindRoutes(graph, edge.Neighbor, start, end, route, cost, pathFound);
-                    if (path.Item3)
-                    {
-                        pathFound = true;
-                        lastNode = path.Item4;
-                        cost += path.Item2;
-                    }
-                }
-                if (pathFound)
-                {
-                    route.Add(root);
-                    if (lastNode == edge.Neighbor)
-                    {
-                        cost += edge.Weight;
-                    }
-                    return new Tuple<List<Vertex>, int, bool, Vertex>(route, cost, pathFound, root);
+                    Cost += Edges.Find(n => n.Neighbor.Value.ToString() == arr[i + 1]).Weight;
                 }
             }
-            return new Tuple<List<Vertex>, int, bool, Vertex>(route, cost, pathFound, root);
+            return Cost;
         }
     }
 }
