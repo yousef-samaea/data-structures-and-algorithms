@@ -26,14 +26,16 @@ namespace TestBusines
             travil.AddEdge(C, D, 4);
             travil.AddEdge(C, AE, 122);
             travil.AddEdge(D, AE, 62);
-            string start = "irbid";
-            string end = "qatar";
-            var x = BusinessTrips.BusinessTrip(travil, start, end);
-
-
-            Assert.Equal(x, BusinessTrips.BusinessTrip(travil, start, end));
+            //string start = "irbid";
+            //string end = "qatar";
+            string[] fromTo = { "amman", "irbid", "dubai" };
+            var cc = BusinessTrips.BusinessTrip(travil, fromTo);
+            //var x = BusinessTrips.BusinessTrip(travil, start, end);
+            Assert.Equal(cc, BusinessTrips.BusinessTrip(travil, fromTo));
 
         }
+
+
 
 
     }
