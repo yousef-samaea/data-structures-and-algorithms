@@ -113,6 +113,16 @@ namespace Graphs
             var cc= BusinessTrip(travil, fromTo);
             Console.Write("the cost of the trip is ");
             Console.WriteLine(cc);
+            Console.WriteLine("****************************************************");
+
+
+            Console.WriteLine("DepthFirst :");
+            List<Vertex> resalt = Graph.DepthFirst(graph);
+            Console.Write("DepthFirst of node Q: ");
+            foreach (Vertex node in resalt)
+            {
+                Console.Write($" {node.Value} ");
+            }
 
         }
 

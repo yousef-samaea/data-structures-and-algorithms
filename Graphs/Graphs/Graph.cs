@@ -95,7 +95,33 @@ namespace Graphs
             return vertexPath;
         }
 
-       
+        public static List<Vertex> DepthFirst(Graph graph)
+        {
+            if (graph.Vertices.Count == 0)
+            {
+                return null;
+            }
+            List<Vertex> result = new List<Vertex>();
+            Vertex root = graph.Vertices[0];
+
+            result = Helper(graph, result, root);
+            return result;
+        }
+        public static List<Vertex> Helper(Graph graph, List<Vertex> list, Vertex root)
+        {
+            root.Visited = true;
+            list.Add(root);
+
+            foreach (Edge edge in root.Edge)
+            {
+                if (!edge.Neighbor.Visited)
+                {
+                    Helper(graph, list, edge.Neighbor);
+                }
+            }
+
+            return list;
+        }
 
     }
 }
