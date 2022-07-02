@@ -8,6 +8,12 @@ namespace Trees
 {
     public class FizzBuzzTree
     {
+
+        public List<string> FBTree()
+        {
+            return FBTree(Root);
+        }
+
         public FNode Root;
         public List<string> FBTree(FNode root)
         {
