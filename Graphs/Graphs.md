@@ -17,6 +17,15 @@ GetNeighbors
 
 Size
 
+# BIG O :
+
+Method	        Time Complexity	Space Complexity
+AddNode	 :             O(1)     	O(1)
+AddEdge	 :             O(1)	        O(1)
+GetNodes :         	   O(n)	        O(n)
+GetNeighbors :	       O(n)	        O(1)
+Size :	               O(1)	        O(1)
+
 # Approach & Efficiency
 Method	Time Complexity	Space Complexity
 AddNode	      O(1)	           O(1)
