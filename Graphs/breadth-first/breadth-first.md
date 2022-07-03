@@ -16,7 +16,7 @@ Implementation of graph-breadth-first traversal method in graphs to retern it or
 
 ### BIG O :
 
-Time Complexity: O(n)
+Time Complexity: O(n^2)
 Space Complexity: O(n)
 
 
